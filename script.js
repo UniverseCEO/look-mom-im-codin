@@ -258,9 +258,9 @@ team2 = (t2g1 + t2g2 + t2g3) / 3;
 console.log ('Team 2 average score is: ' + team2);
 
 //Team 3 score
-t3g1 = Number (prompt ('Team 1 - Score of game 1 was?'));
-t3g2 = Number (prompt('Team 1 - Score of game 2 was?'));
-t3g3 = Number (prompt('Team 1 - Score of game 3 was?'));
+t3g1 = Number (prompt ('Team 3 - Score of game 1 was?'));
+t3g2 = Number (prompt('Team 3 - Score of game 2 was?'));
+t3g3 = Number (prompt('Team 3 - Score of game 3 was?'));
 
 team3 = (t3g1 + t3g2 + t3g3) / 3;
 
