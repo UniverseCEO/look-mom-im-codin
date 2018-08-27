@@ -266,14 +266,25 @@ team3 = (t3g1 + t3g2 + t3g3) / 3;
 
 console.log ('Team 3 average score is: ' + team3);
 
+// Comparison
 
 
 
-
-
-
-
-
+switch (true) {
+    case team1 > team2 || team3 :
+    console.log('Team 1 has the highest average of: ' + team1 );
+    break;
+        
+    case team2 > team1 || team3 :
+    console.log('Team 2 has the highest average of: ' + team2 );
+    break;
+        
+    case team3 > team1 || team2 :
+    console.log('Team 3 has the highest average of: ' + team3 );
+    break;
+    
+    default: console.log('Teams are tied.');
+}
 
 
 
