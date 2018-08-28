@@ -232,7 +232,7 @@ switch (true) {
 */
 
 
-/* Average score calculator */
+/* Average score calculator 
 
 
 // Variables
@@ -268,8 +268,6 @@ console.log ('Team 3 average score is: ' + team3);
 
 // Comparison
 
-
-
 switch (true) {
     case team1 > team2 || team3 :
     console.log('Team 1 has the highest average of: ' + team1 );
@@ -286,11 +284,17 @@ switch (true) {
     default: console.log('Teams are tied.');
 }
 
+*/
+
+/* FUNCTIONS */
+
+var age = function (birth){
+    return 2018 - birth;
+}
 
 
 
-
-
+console.log
 
 
 
